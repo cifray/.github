@@ -1,0 +1,9 @@
+name: Mejora
+description: Una idea o cambio para el producto
+labels: [enhancement]
+body:
+  - type: textarea
+    attributes: { label: Qué problema resuelve }
+    validations: { required: true }
+  - type: textarea
+    attributes: { label: Propuesta }
